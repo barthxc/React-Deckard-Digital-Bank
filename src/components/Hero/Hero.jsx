@@ -3,7 +3,7 @@ const Hero = () => {
   //Añadir el responsive de max-[640px]: cambiando algunas letras y tamaños de contenedores
   return (
     <main className="flex items-center justify-around min-h-screen relative mt-10 max-[978px]:flex-col max-[978px]:gap-10 ">
-      <div className="absolute inset-0 bg-[url('../../public/toolsimg/HeroBackground.png')] bg-cover bg-center  opacity-50 -z-10"></div>
+      <div className="absolute inset-0 bg-[url('/public/toolsimg/HeroBackground.png')] bg-cover bg-center  opacity-50 -z-10"></div>
       <div className="flex flex-col gap-10 max-w-[464px] max-[978px]:mt-10 mx-3 max-[978px]:max-w-[410px]">
         <div className="flex gap-2 text-lg bg-[#4090b546] rounded-xl p-1">
           <svg
