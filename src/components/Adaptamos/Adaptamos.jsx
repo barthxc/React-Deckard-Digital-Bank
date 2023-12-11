@@ -647,7 +647,7 @@ const Adaptamos = () => {
             </p>
           </div>
 
-          <div className="flex flex-row gap-10 justify-center max-[760px]:flex-col">
+          <div className="flex flex-row gap-10 justify-center max-[760px]:flex-col centrar">
             <div className="flex flex-col items-center gap-4">
               <p className="text-6xl text-[#4090B5] font-bold">65%</p>
               <p className="max-w-[182px] text-[#B3B3B3]">

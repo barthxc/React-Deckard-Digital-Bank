@@ -6,7 +6,7 @@ const Navbar = () => {
 
   return (
     <>
-    <header className="flex justify-around items-center mt-4 max-[978px]:flex-col mb-20">
+    <header className="flex justify-around items-center mt-4 mb-20 max-[978px]:flex-col ">
       <img src="toolsimg/AbstractNav.png" className="absolute top-0 left-0 -z-20" alt="Adorno Abstacto arriba-izquierda" />
       <div className="flex flex-row gap-3 items-center">
         <Logo />
@@ -15,7 +15,7 @@ const Navbar = () => {
         </p>
       </div>
       <nav className="flex justify-between text-2xl text-white max-[760px]:hidden">
-        <ul className="flex justify-start gap-10 menu ">
+        <ul className="flex justify-start gap-10 menu">
           <li><a href="" className="efecto-azul">Inicio</a></li>
           <li><a href="" className="efecto-azul">Productos</a></li>
           <li><a href="" className="efecto-azul">Nosotros</a></li>
@@ -50,9 +50,6 @@ const Navbar = () => {
           <a href="#" className="text-[#4090B5] text-lg underline">¿Has olvidado tu contraseña?</a>
       </div>
   </div>
-
-
-
     )}
     </>
   );
