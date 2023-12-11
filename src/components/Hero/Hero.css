@@ -1,3 +1,63 @@
- th, td{
-    border: 1px solid  #363535
+th,
+td {
+  border: 1px solid #363535;
+}
+/*
+.boton-ciberpunk {
+  border-radius: 10px;
+  background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100%);
+  background: linear-gradient(-45deg, #0000 0%, #40c9ff 0%);
+}
+
+.boton-ciberpunk:hover {
+  background: linear-gradient(-45deg, #d563e2 0%, #9dc6d6 100%);
+}
+*/
+
+.button-container {
+  position: relative;
+}
+
+.glow-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #40c9ff;
+  color: #fff;
+  font-weight: bold;
+  padding: 2vw;
+  border: none;
+  border-radius: 2vw;
+  width: 80%; /* Responsive width */
+  position: relative;
+  margin: auto;
+  outline: none;
+}
+
+.glow-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  box-shadow: 0 0 5px #40c9ff, 0 0 10px #40c9ff, 0 0 15px #40c9ff,
+    0 0 20px #40c9ff, 0 0 25px #40c9ff, 0 0 30px #40c9ff, 0 0 35px #d63de4,
+    0 0 40px #d63de4, 0 0 45px #d63de4, 0 0 50px #d63de4;
+  animation: glow 2s infinite;
+}
+
+@keyframes glow {
+  0%,
+  100% {
+    box-shadow: 0 0 5px #40c9ff, 0 0 10px #40c9ff, 0 0 15px #40c9ff,
+      0 0 20px #40c9ff, 0 0 25px #40c9ff, 0 0 30px #d63de4, 0 0 35px #d63de4,
+      0 0 40px #d63de4, 0 0 45px #d63de4, 0 0 50px #d63de4;
+  }
+  50% {
+    box-shadow: 0 0 10px #40c9ff, 0 0 15px #40c9ff, 0 0 20px #40c9ff,
+      0 0 25px #40c9ff, 0 0 30px #40c9ff, 0 0 35px #d63de4, 0 0 40px #d63de4,
+      0 0 45px #d63de4, 0 0 50px #d63de4, 0 0 55px #d63de4;
+  }
 }

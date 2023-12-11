@@ -36,9 +36,11 @@ const Hero = () => {
           herramientas de ahorro inteligente, estamos aquí para hacer que tu
           viaje financiero sea excepcional.
         </p>
-        <button className="bg-[#4090b5b7] text-black py-4 rounded-full text-2xl w-[213px] hover:bg-[#4fb1df]">
-          Abrir Cuenta
-        </button>
+        <div className="button-container">
+          <button className="bg-[#191919] text-white py-4 rounded-full text-2xl w-[213px] hover:bg-[#40c9ff] glow-button">
+            Abrir Cuenta
+          </button>
+        </div>
       </div>
 
       <div className="flex flex-col w-[515px] items-center border bg-[#2626262c] border-[#262626] rounded mx-3 max-[978px]:w-[410px]">

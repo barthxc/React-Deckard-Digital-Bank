@@ -641,9 +641,9 @@ const Adaptamos = () => {
               Para las empresas, potenciamos el crecimiento con soluciones de
               capital de trabajo que optimizan el flujo de efectivo, y nuestras
               opciones de financiamiento personalizadas impulsan la expansión
-              empresarial. Sea cual sea tu aspiración financiera, en YourBank
-              nos comprometemos a proporcionar las herramientas y el respaldo
-              adecuados para alcanzarlas.
+              empresarial. Sea cual sea tu aspiración financiera, en Deckard
+              Digital Bank nos comprometemos a proporcionar las herramientas y
+              el respaldo adecuados para alcanzarlas.
             </p>
           </div>
 
@@ -651,21 +651,21 @@ const Adaptamos = () => {
             <div className="flex flex-col items-center gap-4">
               <p className="text-6xl text-[#4090B5] font-bold">65%</p>
               <p className="max-w-[182px] text-[#B3B3B3]">
-              Gestiona el flujo de efectivo.
+                Gestiona el flujo de efectivo.
               </p>
             </div>
 
             <div className="flex flex-col items-center gap-4">
               <p className="text-6xl text-[#4090B5] font-bold">70%</p>
               <p className="max-w-[182px] text-[#B3B3B3]">
-              Impulsa la expansión empresarial
+                Impulsa la expansión empresarial
               </p>
             </div>
 
             <div className="flex flex-col items-center gap-4">
               <p className="text-6xl text-[#4090B5] font-bold">45%</p>
               <p className="max-w-[182px] text-[#B3B3B3]">
-              Optimiza el procesamiento de nóminas
+                Optimiza el procesamiento de nóminas
               </p>
             </div>
           </div>
