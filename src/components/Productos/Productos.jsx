@@ -9,8 +9,8 @@ const Productos = () => {
           </h2>
           <p className="text-xl text-[#B3B3B3]">
             Descubre una variedad de productos bancarios integrales y
-            personalizables en Deckard Digital Bank, diseñados para adaptarse a
-            tus necesidades financieras y aspiraciones únicas.
+            personalizables, diseñados para adaptarse a tus necesidades
+            financieras y aspiraciones únicas.
           </p>
         </div>
 
@@ -25,7 +25,8 @@ const Productos = () => {
       </div>
 
       <div className="mt-10 flex flex-row justify-center items-center text-white max-[978px]:flex-col ">
-        <div className="flex flex-row justify-center items-start max-[640px]:flex-col max-[640px]:gap-5 max-[640px]:mb-10 max-[978px]:mb-10">{/*Division de 2 */}
+        <div className="flex flex-row justify-center items-start max-[640px]:flex-col max-[640px]:gap-5 max-[640px]:mb-10 max-[978px]:mb-10">
+          {/*Division de 2 */}
           <div className="flex flex-col justify-center items-center gap-4 max-w-[325px] max-[978px]:">
             <svg
               width="99"
@@ -214,7 +215,8 @@ const Productos = () => {
           </div>
         </div>
 
-        <div className="flex flex-row justify-center items-start max-[640px]:flex-col max-[640px]:gap-5 max-[640px]:mb-10">{/*Division de 2 */}
+        <div className="flex flex-row justify-center items-start max-[640px]:flex-col max-[640px]:gap-5 max-[640px]:mb-10">
+          {/*Division de 2 */}
           <div className="flex flex-col justify-center items-center gap-4 max-w-[325px]">
             <svg
               width="99"
