@@ -129,7 +129,7 @@ const Servicios = () => {
           </div>
         </div>
         <div className="flex place-content-center ">
-          <div className="flex flex-row bg-[#ffffff] p-10 border max-w-3xl border-[#262626] max-[760px]:flex-col ">
+          <div className="flex flex-row-reverse  bg-[#ffffff] p-5 border max-w-3xl border-[#262626] max-[760px]:flex-col ">
             <div className="flex flex-col justify-around pt-0 p-5 border border-[#262626]">
               <p className="text-[#000] indicador">1/6</p>
               <p className="text-xs text-[#000]">
