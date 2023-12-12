@@ -2,33 +2,16 @@ th,
 td {
   border: 1px solid #363535;
 }
-/*
-.boton-ciberpunk {
-  border-radius: 10px;
-  background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100%);
-  background: linear-gradient(-45deg, #0000 0%, #40c9ff 0%);
-}
-
-.boton-ciberpunk:hover {
-  background: linear-gradient(-45deg, #d563e2 0%, #9dc6d6 100%);
-}
-*/
-
-.button-container {
-  position: relative;
-}
 
 .glow-button {
   display: flex;
-  align-items: center;
   justify-content: center;
   background-color: #40c9ff;
   color: #fff;
-  font-weight: bold;
   padding: 2vw;
   border: none;
   border-radius: 2vw;
-  width: 80%; /* Responsive width */
+  width: 80%;
   position: relative;
   margin: auto;
   outline: none;

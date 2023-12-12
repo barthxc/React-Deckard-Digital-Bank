@@ -5,25 +5,6 @@ const Hero = () => {
     <main className="flex items-center justify-around min-h-screen relative mt-10 max-[978px]:flex-col max-[978px]:gap-10 ">
       <div className="absolute inset-0 bg-[url('/toolsimg/HeroBackground.png')] bg-cover bg-center opacity-50 -z-10"></div>
       <div className="flex flex-col gap-10 max-w-[464px] max-[978px]:mt-10 mx-3 max-[978px]:max-w-[410px]">
-        <div className="flex gap-2 text-lg bg-[#4090b546] rounded-xl p-1">
-          <svg
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M8.60288 3.79876C9.42705 2.85093 10.6433 2.25 12 2.25C13.3566 2.25 14.5728 2.85087 15.397 3.79861C16.6501 3.71106 17.9352 4.14616 18.8946 5.10557C19.854 6.06498 20.2891 7.35009 20.2016 8.60319C21.1492 9.42735 21.75 10.6435 21.75 12C21.75 13.3568 21.149 14.5731 20.2011 15.3973C20.2884 16.6502 19.8533 17.935 18.8941 18.8943C17.9348 19.8535 16.65 20.2886 15.3971 20.2013C14.5729 21.1491 13.3567 21.75 12 21.75C10.6434 21.75 9.4272 21.1491 8.60304 20.2014C7.34992 20.289 6.0648 19.8539 5.10537 18.8945C4.14596 17.935 3.71086 16.6499 3.79841 15.3968C2.85079 14.5726 2.25 13.3565 2.25 12C2.25 10.6434 2.85085 9.42723 3.79855 8.60306C3.7111 7.35005 4.14621 6.06507 5.10554 5.10574C6.06488 4.1464 7.34987 3.71129 8.60288 3.79876ZM15.6103 10.1859C15.8511 9.84887 15.773 9.38046 15.4359 9.1397C15.0989 8.89894 14.6305 8.97701 14.3897 9.31407L11.1543 13.8436L9.53033 12.2197C9.23744 11.9268 8.76256 11.9268 8.46967 12.2197C8.17678 12.5126 8.17678 12.9874 8.46967 13.2803L10.7197 15.5303C10.8756 15.6862 11.0921 15.7656 11.3119 15.7474C11.5316 15.7293 11.7322 15.6153 11.8603 15.4359L15.6103 10.1859Z"
-              fill="#4090B5"
-            />
-          </svg>
-          <p className="text-white">
-            No es requisito que seas empresa. Ni crédito
-          </p>
-        </div>
         <div className="text-5xl flex flex-col gap-5 text-white">
           <h1 className="font-bold	">Deckard Digital Bank</h1>
           <p>Potencia tu</p>
@@ -36,14 +17,14 @@ const Hero = () => {
           herramientas de ahorro inteligente, estamos aquí para hacer que tu
           viaje financiero sea excepcional.
         </p>
-        <div className="button-container">
-          <button className="bg-[#191919] text-white py-4 rounded-full text-2xl w-[213px] hover:bg-[#40c9ff] glow-button">
+        <div className="relative">
+          <button className="bg-[#191919] text-white my-5 py-4 rounded-full text-2xl w-[213px] hover:bg-[#40c9ff] hover:text-black glow-button">
             Abrir Cuenta
           </button>
         </div>
       </div>
 
-      <div className="flex flex-col w-[515px] items-center border bg-[#2626262c] border-[#262626] rounded mx-3 max-[978px]:w-[410px]">
+      <div className="flex flex-col w-[515px] items-center border bg-[#2626262c] border-[#262626] rounded mx-3 max-[978px]:w-[410px] max-[978px]:mb-10">
         <div className="flex flex-col m-4 w-[445px] items-center max-[978px]:w-[410px] max-[978px]:mx-0">
           <p className="text-sm text-white mb-2">Tus Movimientos</p>
           <div className="flex px-2 py-1 bg-[#1c1c1c4d] border-[#262626] w-[445px] items-center gap-2 rounded-lg max-[978px]:w-[400px] ">
